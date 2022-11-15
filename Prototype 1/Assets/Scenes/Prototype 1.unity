@@ -363,19 +363,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 194810, guid: 09082afec7b5e824ca611a0cc3264bcd, type: 3}
   m_PrefabInstance: {fileID: 1808820657}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &442760390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 442760385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22fb536f7f5e9c54eb215075efce7463, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
 --- !u!54 &442760391
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -392,6 +379,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &442760392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442760385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28e7701a0e2459a4ca84bc4adaeb1d62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20
+  turnSpeed: 20
+  horizontalInput: 0
+  forwardInput: 0
 --- !u!850595691 &481223275
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -548,10 +551,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 534669902}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3ae146bbf5f9a547a4317a74f1b7faf, type: 3}
+  m_Script: {fileID: 11500000, guid: 94385c02210785b438683e555109adfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 442760385}
+  offset: {x: 0, y: 0, z: 0}
+  followee: {fileID: 442760385}
 --- !u!1001 &871839668
 PrefabInstance:
   m_ObjectHideFlags: 0
