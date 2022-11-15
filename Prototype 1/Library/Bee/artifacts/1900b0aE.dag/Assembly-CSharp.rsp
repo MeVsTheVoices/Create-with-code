@@ -353,6 +353,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Course Library/Scripts/FollowPlayer.cs"
 "Assets/Course Library/Scripts/PlayerController.cs"
 -langversion:9.0
 
