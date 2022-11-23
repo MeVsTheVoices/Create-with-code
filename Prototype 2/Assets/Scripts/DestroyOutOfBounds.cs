@@ -22,6 +22,7 @@ public class DestroyOutOfBounds : MonoBehaviour
             transform.position.y < initialPosition.y - bound  ||
             transform.position.z > initialPosition.z + bound  ||
             transform.position.z < initialPosition.z - bound) {
+                Debug.Log("Game Over!");
                 Destroy(gameObject);
             }
     }
