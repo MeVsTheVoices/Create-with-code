@@ -22,7 +22,7 @@ public class MoveLeft : MonoBehaviour
         if (playerControllerScript.gameOver == false)
             transform.Translate(Vector3.left * Time.deltaTime * speed);
 
-            if (transform.position.x < leftBound && gameObject.CompareTag("Obstacle"))
-                Destroy(gameObject);
+        if (transform.position.x < leftBound && gameObject.CompareTag("Obstacle"))
+            Destroy(gameObject);
     }
 }
