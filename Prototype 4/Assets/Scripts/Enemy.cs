@@ -20,6 +20,7 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (transform.position.y < -10) Destroy(gameObject);
         enemyRb.AddForce((player.transform.position - transform.position).normalized * speed);
     }
 }

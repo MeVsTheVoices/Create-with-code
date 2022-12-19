@@ -46,9 +46,9 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 6990}
+      Script: {instanceID: 7054}
     - Class: 114
-      Script: {instanceID: 7384}
+      Script: {instanceID: 7448}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -847,5 +847,5 @@ ScriptsOnlyBuild:
   platform: 2
   scenePathNames:
   - Assets/Scenes/Prototype 1.unity
-  playerPath: /Users/joshuadunne/Kronknen/Create-with-code/Prototype 1/Prototype
-    1.app
+  playerPath: C:/Users/Feast/Documents/GitHub/Create With Code/Create-with-code/Prototype
+    1/Build.app
