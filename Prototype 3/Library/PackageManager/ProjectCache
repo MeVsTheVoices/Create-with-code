@@ -5,16 +5,26 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 638053688780000000
     m_Hash: 2349020075
+=======
+      ticks: 638049399028527050
+    m_Hash: 1616461635
+>>>>>>> prototype3
   m_LockFileStatus:
     m_FilePath: /Users/joshuadunne/Kronknen/Create-with-code/Prototype 3/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 638053688780000000
     m_Hash: 815515474
+=======
+      ticks: 638049399028537253
+    m_Hash: 785664851
+>>>>>>> prototype3
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
